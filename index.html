@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Homework 1">
+    <meta name="keywords" content="Homework 1">
+    <meta name="author" content="Andrew Donaghy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 1</title>
+  </head>
+  
+  <body>
+    <article>
+      <h1>What problems does responsive design solve?</h1>
+      <p>The main problem responsive design solves on the web is the issue of usability across screens of varying widths. This of course was not necessarily and issue before phones and tablets became a common medium for users to access the internet. Now that they are common place in the average household, websites must adapt(visually) to make sure all of the content is visible and user friendly on each device that a consumer or user may use. For instance, any type that has been made in to a jpg and then set to a width of 100% may shrink to such a small size on a mobile screen that it would be illegible. Therefore, the text should not be made into an image, but instead pure html and set to REM units so it can scale naturally with the users screen size. Advances in responsive techniques are continuously moving forward, however, like most web advancements, the code that you write can only be as up to date as the browsers that the general public are using to interpret your code. Essentially, it is unwise to jump into new coding techniques until they are supported by all modern browsers.</p>
+
+    </article>
+    <form>
+      <input required type="text" name="first_name" id="first-name" class="text-input" placeholder="First Name" />
+      <input required type="text" name="last_name" id="last_name" class="text-input" placeholder="Last Name" />
+      <input type="email" name="email" id="email" placeholder="email" />
+      <input required type="text" name="phone_number" id="phone_number" class="phone_number" placeholder="Phone #" />
+
+      <fieldset>
+        <legend>When was your house built?</legend>
+        <input type="radio" name="house-year" value="after-seventy" id="after-seventy" checked />
+        <label for="after-seventy">After 1970</label>
+        <input type="radio" name="house-year" value="before-seventy" id="before-seventy" />
+        <label for="before-seventy">Before 1970</label>
+      </fieldset>
+    
+    <select name="city" id="city">
+      <option value="city-seattle">Seattle</option>
+      <option value="city-west-seattle">West Seattle</option>
+      <option value="city-Bellevue">Bellevue</option>
+      <option value="city-shoreline">Shoreline</option>
+      <option value="city-Kirkland">Kirkland</option>
+    </select>
+    <label for="city">City</label>
+    <br />
+    <textarea rows="30" cols="60" name="comments" id="comments" placeholder="Comments"></textarea>
+    <br />
+    <input type="submit" name="submit" value="Submit" />
+    </form>
+  </body>
+</html>
